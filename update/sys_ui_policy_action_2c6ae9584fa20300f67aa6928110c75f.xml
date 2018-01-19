@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_other</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-16 11:14:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2c6ae9584fa20300f67aa6928110c75f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_other</sys_name>
+        <sys_package display_value="Innovate" source="x_136834_innovate">913ef8914f110300f67aa6928110c7c9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Innovate">913ef8914f110300f67aa6928110c7c9</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2c6ae9584fa20300f67aa6928110c75f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-16 11:16:25</sys_updated_on>
+        <table>x_136834_innovate_innovate</table>
+        <ui_policy display_value="Innovate show and hide Other filed ">bbf9ed184fa20300f67aa6928110c7b2</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

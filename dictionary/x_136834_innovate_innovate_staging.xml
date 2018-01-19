@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Innovate_staging" max_length="40" name="x_136834_innovate_innovate_staging" type="collection">
+        <element attributes="import_attribute_name=Caller,edge_encryption_enabled=true" label="Caller" max_length="40" name="u_caller" type="string"/>
+        <element attributes="import_attribute_name=Short description,edge_encryption_enabled=true" label="Short description" max_length="40" name="u_short_description" type="string"/>
+    </element>
+</database>

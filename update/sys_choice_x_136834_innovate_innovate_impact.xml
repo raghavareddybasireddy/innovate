@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="impact" table="x_136834_innovate_innovate" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1-High</label>
+            <language>en</language>
+            <name>x_136834_innovate_innovate</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 12:15:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ca286d14fd10300f67aa6928110c7c4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 12:26:11</sys_updated_on>
+            <value>1-High</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2-Medium</label>
+            <language>en</language>
+            <name>x_136834_innovate_innovate</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 12:17:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53e20ed14fd10300f67aa6928110c7a1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 12:26:22</sys_updated_on>
+            <value>2-medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3-Low</label>
+            <language>en</language>
+            <name>x_136834_innovate_innovate</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 12:17:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf0306d14fd10300f67aa6928110c7df</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 12:26:33</sys_updated_on>
+            <value>3-Low</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <name>x_136834_innovate_innovate</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 12:15:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d0a24ad14fd10300f67aa6928110c7a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>impact</sys_name>
+            <sys_package display_value="Innovate" source="x_136834_innovate">913ef8914f110300f67aa6928110c7c9</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Innovate">913ef8914f110300f67aa6928110c7c9</sys_scope>
+            <sys_update_name>sys_choice_x_136834_innovate_innovate_impact</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 12:15:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

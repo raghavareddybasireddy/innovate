@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Innovate" max_length="40" name="x_136834_innovate_innovate" type="collection">
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Business service" max_length="32" name="business_service" reference="cmdb_ci_service" type="reference"/>
+        <element label="Caller" mandatory="true" max_length="32" name="caller_id" reference="sys_user" type="reference"/>
+        <element label="Configuration Item" max_length="32" name="cmdb_ci" reference="cmdb_ci" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Contact type" max_length="40" name="contact_type" type="string">
+            <choice>
+                <element label="Email" sequence="0" value="Email"/>
+                <element label="Phone" sequence="1" value="Phone"/>
+                <element label="Self-service" sequence="2" value="Self_service"/>
+                <element label="Walk-in" sequence="4" value="Walk-in"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="3-Low" label="Impact" max_length="40" name="impact" type="string">
+            <choice>
+                <element label="1-High" sequence="0" value="1-High"/>
+                <element label="2-Medium" sequence="1" value="2-medium"/>
+                <element label="3-Low" sequence="2" value="3-Low"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Priority" max_length="40" name="priority" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" max_length="40" name="request_type" type="string">
+            <choice>
+                <element label="hr" sequence="0" value="hr"/>
+                <element label="facilities" sequence="1" value="facilities"/>
+                <element label="legal" sequence="2" value="legal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short description" mandatory="true" max_length="40" name="short_description" type="string"/>
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="integer">
+            <choice>
+                <element label="Requested" sequence="0" value="1"/>
+                <element label="Awaiting Approval" sequence="1" value="2"/>
+                <element label="Approved" sequence="2" value="3"/>
+                <element label="Awaiting Feedback" sequence="3" value="4"/>
+                <element label="Closed Complete" sequence="4" value="5"/>
+                <element label="Withdrawn" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="subcategory" dependent="u_string_2" dependent_on_field="u_string_2" label="Subcategory" max_length="40" name="subcategory" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="database" label="DB2" sequence="0" value="DB2"/>
+                <element dependent_value="database" label="MS SQL Server" sequence="1" value="MS SQL Server"/>
+                <element dependent_value="database" label="Oracle" sequence="2" value="Oracle"/>
+                <element dependent_value="hardware" label="cpu" sequence="3" value="cpu"/>
+                <element dependent_value="hardware" label="Disk" sequence="4" value="Disk"/>
+                <element dependent_value="hardware" label="Keyboard" sequence="5" value="Keyboard"/>
+                <element dependent_value="hardware" label="Memory" sequence="6" value="Memory"/>
+                <element dependent_value="hardware" label="Moniter" sequence="7" value="Moniter"/>
+                <element dependent_value="hardware" label="Mouse" sequence="8" value="Mouse"/>
+                <element dependent_value="Inquiry/Help" label="Antivirus" sequence="9" value="Antivirus"/>
+                <element dependent_value="Inquiry/Help" label="Email" sequence="10" value="Email"/>
+                <element dependent_value="Inquiry/Help" label="Internal Application" sequence="11" value="Internal Application"/>
+                <element dependent_value="network" label="DHCP" sequence="12" value="DHCP"/>
+                <element dependent_value="network" label="DNS" sequence="13" value="DNS"/>
+                <element dependent_value="network" label="IP Address" sequence="14" value="IP Address"/>
+                <element dependent_value="network" label="VPN" sequence="15" value="VPN"/>
+                <element dependent_value="network" label="Wireless" sequence="16" value="Wireless"/>
+                <element dependent_value="software" label="Operating System" sequence="17" value="Operating System"/>
+                <element dependent_value="Software" label="Email" sequence="19" value="Email"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="3-Low" label="Urgency" max_length="40" name="urgency" type="string">
+            <choice>
+                <element label="1-High" sequence="0" value="1-High"/>
+                <element label="2-Medium" sequence="1" value="2-Medium"/>
+                <element label="3-Low" sequence="2" value="3-Low"/>
+            </choice>
+        </element>
+        <element label="Long Description" max_length="40" name="u_integer_1" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_string_2" type="string">
+            <choice>
+                <element label="Inquiry/Help" sequence="0" value="Inquiry/Help"/>
+                <element label="Software" sequence="1" value="Software"/>
+                <element label="Hardware" sequence="2" value="Hardware"/>
+                <element label="Network" sequence="3" value="Network"/>
+                <element label="Database" sequence="4" value="Database"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Subcategory" max_length="40" name="u_string_3" type="string">
+            <choice>
+                <element label="Antivirus" sequence="0" value="Antivirus"/>
+                <element label="Email" sequence="1" value="Email"/>
+                <element label="Internal application" sequence="2" value="Internal application"/>
+                <element label="Operating system" sequence="3" value="Operating system"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_string_2" dependent="request_type" dependent_on_field="request_type" label="What Needed" max_length="40" name="what_needed" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="facilities" label="facilities1" sequence="0" value="facilities1"/>
+                <element dependent_value="hr" label="hr1" sequence="0" value="hr1"/>
+                <element dependent_value="legal" label="legal1" sequence="0" value="legal1"/>
+                <element dependent_value="facilities" label="facilities2" sequence="1" value="facilities2"/>
+                <element dependent_value="hr" label="hr2" sequence="1" value="hr2"/>
+                <element dependent_value="legal" label="legal2" sequence="1" value="legal2"/>
+                <element dependent_value="facilities" label="facilities3" sequence="2" value="facilities3"/>
+                <element dependent_value="hr" label="hr3" sequence="2" value="hr3"/>
+                <element dependent_value="legal" label="legal3" sequence="2" value="legal3"/>
+                <element dependent_value="facilities" label="Other" sequence="3" value="Other"/>
+                <element dependent_value="hr" label="Other" sequence="3" value="Other"/>
+                <element dependent_value="legal" label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="cmdb_ci"/>
+        </index>
+        <index name="index3">
+            <element name="caller_id"/>
+        </index>
+        <index name="index4">
+            <element name="business_service"/>
+        </index>
+        <index name="index5">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

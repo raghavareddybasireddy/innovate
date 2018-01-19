@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="contact_type" table="x_136834_innovate_innovate" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>x_136834_innovate_innovate</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 10:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6abe1d54f910300f67aa6928110c7d4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 10:38:38</sys_updated_on>
+            <value>Email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phone</label>
+            <language>en</language>
+            <name>x_136834_innovate_innovate</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 10:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2abe1d54f910300f67aa6928110c7d5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 10:40:41</sys_updated_on>
+            <value>Phone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Self-service</label>
+            <language>en</language>
+            <name>x_136834_innovate_innovate</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 10:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aeabe1d54f910300f67aa6928110c7d5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 10:41:10</sys_updated_on>
+            <value>Self_service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Walk-in</label>
+            <language>en</language>
+            <name>x_136834_innovate_innovate</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 10:41:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>301dedd54f910300f67aa6928110c709</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 10:45:20</sys_updated_on>
+            <value>Walk-in</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>contact_type</element>
+            <name>x_136834_innovate_innovate</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 10:28:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>142a65954f910300f67aa6928110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>contact_type</sys_name>
+            <sys_package display_value="Innovate" source="x_136834_innovate">913ef8914f110300f67aa6928110c7c9</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Innovate">913ef8914f110300f67aa6928110c7c9</sys_scope>
+            <sys_update_name>sys_choice_x_136834_innovate_innovate_contact_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 10:28:25</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
